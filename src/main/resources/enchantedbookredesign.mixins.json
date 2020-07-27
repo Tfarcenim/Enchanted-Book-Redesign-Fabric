@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "package": "tfar.enchantedbookredesign.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "enchantedbookredesign.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "BufferBuilderStorageMixin",
+    "ItemRendererMixin",
+    "ArmorFeatureRendererMixin",
+    "ElytraFeatureRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}

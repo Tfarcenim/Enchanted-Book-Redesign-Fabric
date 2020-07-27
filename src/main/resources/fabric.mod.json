@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "enchantedbookredesign",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Enchanted Book Redesign",
+  "description": "Better enchanted books",
   "authors": [
     "Me!"
   ],
@@ -18,12 +18,12 @@
 
   "environment": "*",
   "entrypoints": {
-    "main": [
-      "net.fabricmc.example.ExampleMod"
+    "client": [
+      "tfar.enchantedbookredesign.EnchantedBookRedesign"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "enchantedbookredesign.mixins.json"
   ],
 
   "depends": {
