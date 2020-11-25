@@ -16,7 +16,7 @@
   "license": "CC0-1.0",
   "icon": "assets/modid/icon.png",
 
-  "environment": "*",
+  "environment": "client",
   "entrypoints": {
     "client": [
       "tfar.enchantedbookredesign.EnchantedBookRedesign"
@@ -27,8 +27,7 @@
   ],
 
   "depends": {
-    "fabricloader": ">=0.7.4",
-    "fabric": "*"
+    "fabricloader": ">=0.7.4"
   },
   "suggests": {
     "flamingo": "*"
