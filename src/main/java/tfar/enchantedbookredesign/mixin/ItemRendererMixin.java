@@ -31,7 +31,7 @@ public abstract class ItemRendererMixin {
 
 	//items
 	//swap the vanilla vertexconsumer with our own
-	@Inject(method = "method_29711", at = @At("HEAD"), cancellable = true)
+	@Inject(method = "getDirectItemGlintConsumer", at = @At("HEAD"), cancellable = true)
 	private static void tinteditemglint(VertexConsumerProvider bufferIn, RenderLayer renderTypeIn, boolean isItemIn, boolean glint, CallbackInfoReturnable<VertexConsumer> cir) {
 		if (glint) {
 			VertexConsumer builder2 = VertexConsumers.dual(
@@ -45,7 +45,7 @@ public abstract class ItemRendererMixin {
 
 	//armor
 	//swap the vanilla vertexconsumer with our own
-	@Inject(method = "method_27952", at = @At("HEAD"), cancellable = true)
+	@Inject(method = "getArmorGlintConsumer", at = @At("HEAD"), cancellable = true)
 	private static void alsotintedglint(VertexConsumerProvider bufferIn, RenderLayer renderTypeIn, boolean isItem, boolean glint, CallbackInfoReturnable<VertexConsumer> cir) {
 		if (glint) {
 			VertexConsumer builder2 = VertexConsumers.dual(
