@@ -6,11 +6,11 @@
   "name": "Enchanted Book Redesign",
   "description": "Better enchanted books",
   "authors": [
-    "Me!"
+    "Tfarcenim"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/Tfarcenim",
+    "sources": "https://github.com/Tfarcenim/Enchanted-Book-Redesign-Fabric"
   },
 
   "license": "CC0-1.0",
